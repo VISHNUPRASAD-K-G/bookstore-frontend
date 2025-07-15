@@ -339,7 +339,7 @@ function Profile() {
                 </div>
               ))
               :
-              <div className='flex justify-center items-center'>
+              <div className='flex justify-center flex-col items-center'>
                 <img src="https://i.pinimg.com/originals/b4/13/34/b41334a036d6796c281a6e5cbb36e4b5.gif" alt="no books" className='w-56' />
                 <p className='text-lg text-red-500'>No books added yet.</p>
               </div>}
@@ -367,7 +367,7 @@ function Profile() {
                 </div>
               ))
               :
-              <div className='flex justify-center items-center'>
+              <div className='flex flex-col justify-center items-center'>
                 <img src="https://i.pinimg.com/originals/b4/13/34/b41334a036d6796c281a6e5cbb36e4b5.gif" alt="no books" className='w-56' />
                 <p className='text-lg text-red-500'>No books purchased yet.</p>
               </div>
